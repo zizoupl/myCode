@@ -49,12 +49,22 @@
     <Compile Include="Coding\Generics\GenericsExample.cs" />
     <Compile Include="Coding\Generics\MyList.cs" />
     <Compile Include="Coding\Interface\IStringOpearation.cs" />
+    <Compile Include="Coding\Reflection\Entity.cs" />
+    <Compile Include="Coding\Reflection\ReflectionExample.cs" />
+    <Compile Include="Coding\TPL\Paralism.cs" />
+    <Compile Include="Coding\TPL\Randomizer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Testing\ExtensionMethod\StringExtensionsTest.cs" />
     <Compile Include="Testing\GenericsTest\GenericsTest.cs" />
+    <Compile Include="Testing\Reflection\ReflectionTest.cs" />
+    <Compile Include="Testing\TPL\TPLTest.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Coding\TPL\txt\" />
     <Folder Include="Testing\Delegates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
